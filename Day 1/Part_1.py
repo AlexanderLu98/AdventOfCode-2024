@@ -1,9 +1,8 @@
-"""Intuition:
-#Read the text file
-#Sort both the lists and compare them. Runtime: O(2*nlogn) + O(n) = O(nlogn)
-"""
-
 def main():
+    """Intuition:
+    #Read the text file
+    #Sort both the lists and compare them. Runtime: O(2*nlogn) + O(n) = O(nlogn)
+    """
     #Read the text file
     with open(r'Day 1\input.txt', 'r') as file:
         list1 = []
