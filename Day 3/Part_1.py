@@ -6,6 +6,10 @@ def reader(file):
         return f.read()
 
 def preprocessing(data):
+    """
+    Preprocess the input data by finding all occurrences of a specific pattern.
+    The pattern matches strings like 'mul(x,y)' where x and y are numbers (1 to 3 digits).
+    """
     pattern = r"mul\(\d{1,3},\d{1,3}\)"
     return re.findall(pattern, data)
 
