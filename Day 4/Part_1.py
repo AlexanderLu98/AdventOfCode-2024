@@ -5,6 +5,7 @@ import re
 # 1. One pass through text file getting square:
 # 2. Multiple passes for each direction:
 # Back/forth: Row-wise, Column-wise, Diagonal-wise(left/right, right/left)
+# Went with the second option
 
 def reader(file):
     """Helper function, reads a file and returns a numpy matrix of lines."""
